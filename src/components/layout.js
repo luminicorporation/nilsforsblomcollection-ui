@@ -14,6 +14,7 @@ import Footer from './footer';
 import '../styles/layout.scss';
 import '../styles/background.scss';
 import '../styles/typefaces.scss';
+import css from '@emotion/css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,7 +31,13 @@ const Layout = ({ children }) => (
       (/*data*/) => (
         <>
           {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-          <main>{children}</main>
+          <main
+            css={css`
+              padding-top: 140px;
+            `}
+          >
+            {children}
+          </main>
           <Footer />
         </>
       )

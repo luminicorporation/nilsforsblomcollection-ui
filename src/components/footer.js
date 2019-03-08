@@ -64,11 +64,11 @@ const Item = ({ children }) => (
 
 const Footer = () => {
   const [isFixed, setIsFixed] = useState(false);
-  useResizeEvent(() =>
+  useResizeEvent(() => {
     setIsFixed(
       document.documentElement.clientHeight > document.body.clientHeight
-    )
-  );
+    );
+  });
 
   return (
     <Wrapper fixed={isFixed}>
