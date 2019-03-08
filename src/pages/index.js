@@ -16,6 +16,7 @@ const IndexPage = () => (
         css={css`
           text-transform: uppercase;
           font-size: 56px;
+          margin: 140px 0;
         `}
       >
         Lumini
@@ -25,6 +26,7 @@ const IndexPage = () => (
         css={css`
           height: 7px;
           background-color: #121212;
+          margin-bottom: 100px;
         `}
       />
       <div
