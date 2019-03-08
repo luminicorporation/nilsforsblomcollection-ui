@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { css } from '@emotion/core';
 
 import Content from './content';
+import { useResizeEvent } from '../hooks/useResizeEvent';
 
-const Wrapper = ({ children }) => (
+const Wrapper = ({ children, fixed = false }) => (
   <footer
     css={css`
       background-color: #121212;
@@ -13,6 +14,13 @@ const Wrapper = ({ children }) => (
         display: flex;
         align-items: center;
       }
+      ${fixed
+        ? `
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      `
+        : ''}
     `}
   >
     <Content>{children}</Content>
@@ -55,8 +63,15 @@ const Item = ({ children }) => (
 );
 
 const Footer = () => {
+  const [isFixed, setIsFixed] = useState(false);
+  useResizeEvent(() =>
+    setIsFixed(
+      document.documentElement.clientHeight > document.body.clientHeight
+    )
+  );
+
   return (
-    <Wrapper>
+    <Wrapper fixed={isFixed}>
       <List>
         <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
         <Item>San Diego, California</Item>
