@@ -3,6 +3,7 @@ import React from 'react';
 // import Img from "gatsby-image";
 
 import icon from '../images/greater-than-xxl.png';
+import { css } from '@emotion/core';
 
 // const GreaterThanCaret = () => (
 //   <StaticQuery
@@ -21,6 +22,14 @@ import icon from '../images/greater-than-xxl.png';
 //   />
 // );
 
-const GreaterThanCaret = () => <img src={icon} alt="greater than caret" />;
+const GreaterThanCaret = () => (
+  <img
+    src={icon}
+    alt="greater than caret"
+    css={css`
+      width: 100px;
+    `}
+  />
+);
 
 export default GreaterThanCaret;
