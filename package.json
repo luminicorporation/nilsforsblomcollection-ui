@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "lumini",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Theoretical science research for advanced technologies. We are developing foundational technologies, applying new thinking for near-future applications.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nils Forsblom <nils@lumini.me>",
   "dependencies": {
     "gatsby": "^2.1.24",
     "gatsby-image": "^2.0.31",
@@ -26,7 +26,7 @@
     "prettier": "^1.16.4"
   },
   "keywords": [
-    "gatsby"
+    "lumini"
   ],
   "license": "MIT",
   "scripts": {
