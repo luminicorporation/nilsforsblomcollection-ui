@@ -1,11 +1,10 @@
 import React from 'react';
-
-import 'styled-components/macro';
+import { css } from '@emotion/core';
 
 const Footer = () => {
   return (
     <footer
-      css={`
+      css={css`
         display: flex;
         align-items: center;
         height: 6em;
@@ -18,7 +17,7 @@ const Footer = () => {
           color: white;
           li {
             display: inline;
-            &:not(:first-child) {
+            &:not(:first-of-type) {
               margin-left: 20px;
             }
           }

@@ -1,16 +1,16 @@
 import React from 'react';
 // import { Link } from 'gatsby';
+import { css } from '@emotion/core';
 
 import GreaterThanCaret from '../components/greaterThanCaret';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import 'styled-components/macro';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1
-      css={`
+      css={css`
         // font-family: "neotech medium";
         // font-weight: 600;
       `}
