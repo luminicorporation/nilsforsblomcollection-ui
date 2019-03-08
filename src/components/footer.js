@@ -3,50 +3,68 @@ import { css } from '@emotion/core';
 
 import Content from './content';
 
+const Wrapper = ({ children }) => (
+  <footer
+    className="opensans-semi"
+    css={css`
+      background-color: #121212;
+      .content {
+        padding: 0;
+        height: 4em;
+        display: flex;
+        align-items: center;
+      }
+    `}
+  >
+    <Content>{children}</Content>
+  </footer>
+);
+
+const List = ({ children }) => (
+  <ul
+    css={css`
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase;
+      list-style-type: none;
+      color: white;
+      font-size: 12px;
+    `}
+  >
+    {children}
+  </ul>
+);
+
+const Item = ({ children }) => (
+  <li
+    css={css`
+      display: inline;
+      &:not(:first-of-type) {
+        margin-left: 20px;
+      }
+      a:link,
+      a:visited,
+      a:hover,
+      a:active {
+        color: white;
+      }
+    `}
+  >
+    {children}
+  </li>
+);
+
 const Footer = () => {
   return (
-    <footer
-      css={css`
-        background-color: #121212;
-        .content {
-          padding: 0;
-          height: 4em;
-          display: flex;
-          align-items: center;
-          ul {
-            padding: 0;
-            margin: 0;
-            text-transform: uppercase;
-            list-style-type: none;
-            color: white;
-            font-size: 12px;
-            font-family: 'opensans semibold';
-            li {
-              display: inline;
-              &:not(:first-of-type) {
-                margin-left: 20px;
-              }
-              a:link,
-              a:visited,
-              a:hover,
-              a:active {
-                color: white;
-              }
-            }
-          }
-        }
-      `}
-    >
-      <Content>
-        <ul>
-          <li>© {new Date().getFullYear()} Lumini Corporation Inc.</li>
-          <li>San Diego, California</li>
-          <li>
-            <a href="mailto:info@lumini.me">info@lumini.me</a>
-          </li>
-        </ul>
-      </Content>
-    </footer>
+    <Wrapper>
+      <List>
+        <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
+        <Item>San Diego, California</Item>
+        <Item>
+          <a href="mailto:info@lumini.me">info@lumini.me</a>
+        </Item>
+      </List>
+    </Wrapper>
   );
 };
 

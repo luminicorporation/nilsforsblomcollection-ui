@@ -12,10 +12,9 @@ const IndexPage = () => (
     <Content>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <h1
+        className="neotech-med"
         css={css`
           text-transform: uppercase;
-          // font-family: "neotech medium";
-          // font-weight: 600;
         `}
       >
         Lumini
@@ -41,7 +40,6 @@ const IndexPage = () => (
             width: 56%;
             margin-right: 50px;
             font-size: 30px;
-            font-family: 'opensans light';
             line-height: 1.6;
           `}
         >
