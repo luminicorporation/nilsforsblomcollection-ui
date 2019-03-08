@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { css } from '@emotion/core';
 
 import Content from './content';
@@ -16,10 +16,10 @@ const Wrapper = ({ children, fixed = false }) => (
       }
       ${fixed
         ? `
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-      `
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        `
         : ''}
     `}
   >
