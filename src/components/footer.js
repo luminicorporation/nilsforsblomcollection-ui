@@ -5,7 +5,6 @@ import Content from './content';
 
 const Wrapper = ({ children }) => (
   <footer
-    className="opensans-semi"
     css={css`
       background-color: #121212;
       .content {
@@ -22,6 +21,7 @@ const Wrapper = ({ children }) => (
 
 const List = ({ children }) => (
   <ul
+    className="opensans-semibold"
     css={css`
       padding: 0;
       margin: 0;

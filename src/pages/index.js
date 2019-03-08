@@ -15,6 +15,7 @@ const IndexPage = () => (
         className="neotech-med"
         css={css`
           text-transform: uppercase;
+          font-size: 56px;
         `}
       >
         Lumini
