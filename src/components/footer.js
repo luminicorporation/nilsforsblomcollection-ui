@@ -8,6 +8,7 @@ const Wrapper = ({ children, fixed = false }) => (
   <footer
     css={css`
       background-color: #121212;
+      margin-top: 80px;
       .content {
         padding: 0;
         height: 4em;
