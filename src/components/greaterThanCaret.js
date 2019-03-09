@@ -4,6 +4,7 @@ import React from 'react';
 
 import icon from '../images/greater-than-xxl.png';
 import { css } from '@emotion/core';
+import { isMobile } from 'react-device-detect';
 
 // const GreaterThanCaret = () => (
 //   <StaticQuery
@@ -22,14 +23,15 @@ import { css } from '@emotion/core';
 //   />
 // );
 
-const GreaterThanCaret = () => (
-  <img
-    src={icon}
-    alt="greater than caret"
-    css={css`
-      width: 100px;
-    `}
-  />
-);
+const GreaterThanCaret = () =>
+  isMobile ? null : (
+    <img
+      src={icon}
+      alt="greater than caret"
+      css={css`
+        width: 100px;
+      `}
+    />
+  );
 
 export default GreaterThanCaret;

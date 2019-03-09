@@ -15,6 +15,7 @@ import '../styles/layout.scss';
 import '../styles/background.scss';
 import '../styles/typefaces.scss';
 import css from '@emotion/css';
+import { onMobile } from '../utils/onMobile';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -34,6 +35,9 @@ const Layout = ({ children }) => (
           <main
             css={css`
               padding-top: 140px;
+              ${onMobile(`
+                padding-top: 50px;
+              `)}
             `}
           >
             {children}

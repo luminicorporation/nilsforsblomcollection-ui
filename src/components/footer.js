@@ -3,12 +3,17 @@ import { css } from '@emotion/core';
 
 import Content from './content';
 import { useResizeEvent } from '../hooks/useResizeEvent';
+import { onMobile } from '../utils/onMobile';
+import { isMobile } from 'react-device-detect';
 
 const Wrapper = ({ children, fixed = false }) => (
   <footer
     css={css`
       background-color: #121212;
       margin-top: 80px;
+      ${onMobile(`
+        margin-top: 0;
+      `)}
       .content {
         padding: 0;
         height: 4em;
@@ -38,6 +43,12 @@ const List = ({ children }) => (
       list-style-type: none;
       color: white;
       font-size: 12px;
+      ${onMobile(`
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+      `)}
     `}
   >
     {children}
@@ -57,6 +68,12 @@ const Item = ({ children }) => (
       a:active {
         color: white;
       }
+      ${onMobile(`
+        margin: 0;
+        &:not(:first-of-type) {
+          margin-left: auto;
+        }
+      `)}
     `}
   >
     {children}
@@ -65,17 +82,17 @@ const Item = ({ children }) => (
 
 const Footer = () => {
   const [isFixed, setIsFixed] = useState(false);
-  useResizeEvent(() => {
+  useResizeEvent(() =>
     setIsFixed(
       document.documentElement.clientHeight > document.body.clientHeight
-    );
-  });
+    )
+  );
 
   return (
     <Wrapper fixed={isFixed}>
       <List>
         <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
-        <Item>San Diego, California</Item>
+        {!isMobile && <Item>San Diego, California</Item>}
         <Item>
           <a href="mailto:info@lumini.me">info@lumini.me</a>
         </Item>
