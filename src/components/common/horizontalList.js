@@ -7,6 +7,11 @@ export const Item = ({ children, className, ...props }) => (
   </li>
 );
 
-export const List = ({ children }) => (
-  <ul className="opensans-semibold horizontal-list">{children}</ul>
+export const List = ({ children, className, ...props }) => (
+  <ul
+    className={cx('opensans-semibold', 'horizontal-list', className)}
+    {...props}
+  >
+    {children}
+  </ul>
 );
