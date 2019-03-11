@@ -28,18 +28,23 @@ const Footer = () => {
       <Content
         css={css`
           padding: 0;
-          height: 4em;
-          display: flex;
-          align-items: center;
         `}
       >
-        <List>
-          <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
-          <Item className="hide-on-mobile">California, United States.</Item>
-          <Item>
-            <Anchor href="mailto:info@lumini.me">info@lumini.me</Anchor>
-          </Item>
-        </List>
+        <article
+          css={css`
+            height: 4em;
+            display: flex;
+            align-items: center;
+          `}
+        >
+          <List>
+            <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
+            <Item className="hide-on-mobile">California, United States.</Item>
+            <Item>
+              <Anchor href="mailto:info@lumini.me">info@lumini.me</Anchor>
+            </Item>
+          </List>
+        </article>
       </Content>
     </footer>
   );

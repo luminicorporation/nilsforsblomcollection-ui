@@ -17,7 +17,7 @@ const IndexPage = () => (
         <br /> Corporation
       </h1>
       <hr className="horizontal-separator" />
-      <div
+      <article
         css={css`
           display: flex;
           flex-direction: row;
@@ -31,7 +31,7 @@ const IndexPage = () => (
           developing foundational technologies, applying new thinking for
           near-future applications.
         </p>
-      </div>
+      </article>
     </Content>
   </Layout>
 );
