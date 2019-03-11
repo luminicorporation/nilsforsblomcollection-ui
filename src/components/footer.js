@@ -4,6 +4,7 @@ import { css } from '@emotion/core';
 import Content from './content';
 import { useResizeEvent } from '../hooks/useResizeEvent';
 import { List, Item } from './common/horizontalList';
+import { Anchor } from './common/anchor';
 import '../styles/footer.scss';
 
 const fixedStyles = css`
@@ -36,7 +37,7 @@ const Footer = () => {
           <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
           <Item className="hide-on-mobile">California, United States.</Item>
           <Item>
-            <a href="mailto:info@lumini.me">info@lumini.me</a>
+            <Anchor href="mailto:info@lumini.me">info@lumini.me</Anchor>
           </Item>
         </List>
       </Content>
