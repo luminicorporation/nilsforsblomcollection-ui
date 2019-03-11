@@ -10,7 +10,12 @@ export const Anchor = ({ children, className, ...props }) => (
 );
 
 export const ExternalAnchor = ({ children, className, ...props }) => (
-  <Anchor className={cx('anchor--external', className)} {...props}>
+  <Anchor
+    className={cx('anchor--external', className)}
+    {...props}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     {children}
     {/* TODO: add icon for external link when on hover */}
   </Anchor>
