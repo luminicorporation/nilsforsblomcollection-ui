@@ -6,7 +6,6 @@ import GreaterThanCaret from '../components/greaterThanCaret';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Content from '../components/content';
-import { onMobile } from '../utils/onMobile';
 
 const IndexPage = () => (
   <Layout>
@@ -19,11 +18,11 @@ const IndexPage = () => (
           font-size: 56px;
           margin-bottom: 140px;
           color: #121212;
-          ${onMobile(`
+          .device-mobile & {
             margin-bottom: 45px;
             font-size: 2.1em;
             text-align: center;
-          `)}
+          }
         `}
       >
         Lumini
@@ -34,9 +33,9 @@ const IndexPage = () => (
           height: 7px;
           background-color: #121212;
           margin-bottom: 100px;
-          ${onMobile(`
+          .device-mobile & {
             margin-bottom: 50px;
-          `)}
+          }
         `}
       />
       <div
@@ -54,12 +53,12 @@ const IndexPage = () => (
             margin-right: 50px;
             font-size: 30px;
             line-height: 1.6;
-            ${onMobile(`
+            .device-mobile & {
               width: 100%;
               margin-right: 0;
               font-size: 21px;
               text-align: center;
-            `)}
+            }
           `}
         >
           Theoretical science research for advanced technologies. We are

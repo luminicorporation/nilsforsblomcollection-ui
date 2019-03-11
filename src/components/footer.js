@@ -3,7 +3,6 @@ import { css } from '@emotion/core';
 
 import Content from './content';
 import { useResizeEvent } from '../hooks/useResizeEvent';
-import { onMobile } from '../utils/onMobile';
 import { isMobile } from 'react-device-detect';
 
 const Wrapper = ({ children, fixed = false }) => (
@@ -11,9 +10,9 @@ const Wrapper = ({ children, fixed = false }) => (
     css={css`
       background-color: #121212;
       margin-top: 80px;
-      ${onMobile(`
+      .device-mobile & {
         margin-top: 0;
-      `)}
+      }
       .content {
         padding: 0;
         height: 4em;
@@ -43,12 +42,12 @@ const List = ({ children }) => (
       list-style-type: none;
       color: white;
       font-size: 12px;
-      ${onMobile(`
+      .device-mobile & {
         width: 100%;
         font-size: 10px;
         display: flex;
         justify-content: space-between;
-      `)}
+      }
     `}
   >
     {children}
@@ -68,12 +67,12 @@ const Item = ({ children }) => (
       a:active {
         color: white;
       }
-      ${onMobile(`
+      .device-mobile & {
         margin: 0;
         &:not(:first-of-type) {
           margin-left: auto;
         }
-      `)}
+      }
     `}
   >
     {children}
