@@ -1,20 +1,10 @@
 import React, { useState } from 'react';
 import { css } from '@emotion/core';
-import cx from 'classnames';
 
 import Content from './content';
 import { useResizeEvent } from '../hooks/useResizeEvent';
+import { List, Item } from './common/horizontalList';
 import '../styles/footer.scss';
-
-const List = ({ children }) => (
-  <ul className="opensans-semibold horizontal-list">{children}</ul>
-);
-
-const Item = ({ children, className, ...props }) => (
-  <li className={cx(className, 'horizontal-list_item')} {...props}>
-    {children}
-  </li>
-);
 
 const fixedStyles = css`
   position: fixed;
