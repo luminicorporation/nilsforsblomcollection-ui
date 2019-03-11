@@ -1,0 +1,10 @@
+@import 'media-queries';
+
+.greater-than-caret {
+  width: 100px;
+
+  display: none;
+  @include device-WIDER-than(mobile) {
+    display: block;
+  }
+}

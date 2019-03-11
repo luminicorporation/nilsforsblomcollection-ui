@@ -1,102 +1,56 @@
 import React, { useState } from 'react';
 import { css } from '@emotion/core';
+import cx from 'classnames';
 
 import Content from './content';
 import { useResizeEvent } from '../hooks/useResizeEvent';
-import { isMobile } from 'react-device-detect';
-
-const Wrapper = ({ children, fixed = false }) => (
-  <footer
-    css={css`
-      background-color: #121212;
-      margin-top: 80px;
-      .device-mobile & {
-        margin-top: 0;
-      }
-      .content {
-        padding: 0;
-        height: 4em;
-        display: flex;
-        align-items: center;
-      }
-      ${fixed
-        ? `
-          position: fixed;
-          bottom: 0;
-          width: 100%;
-        `
-        : ''}
-    `}
-  >
-    <Content>{children}</Content>
-  </footer>
-);
+import '../styles/footer.scss';
 
 const List = ({ children }) => (
-  <ul
-    className="opensans-semibold"
-    css={css`
-      padding: 0;
-      margin: 0;
-      text-transform: uppercase;
-      list-style-type: none;
-      color: white;
-      font-size: 12px;
-      .device-mobile & {
-        width: 100%;
-        font-size: 10px;
-        display: flex;
-        justify-content: space-between;
-      }
-    `}
-  >
-    {children}
-  </ul>
+  <ul className="opensans-semibold horizontal-list">{children}</ul>
 );
 
-const Item = ({ children }) => (
-  <li
-    css={css`
-      display: inline;
-      &:not(:first-of-type) {
-        margin-left: 20px;
-      }
-      a:link,
-      a:visited,
-      a:hover,
-      a:active {
-        color: white;
-      }
-      .device-mobile & {
-        margin: 0;
-        &:not(:first-of-type) {
-          margin-left: auto;
-        }
-      }
-    `}
-  >
+const Item = ({ children, className, ...props }) => (
+  <li className={cx(className, 'horizontal-list_item')} {...props}>
     {children}
   </li>
 );
 
+const fixedStyles = css`
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+`;
+
 const Footer = () => {
   const [isFixed, setIsFixed] = useState(false);
-  useResizeEvent(() =>
-    setIsFixed(
-      document.documentElement.clientHeight > document.body.clientHeight
-    )
-  );
+  useResizeEvent(() => {
+    if (typeof document !== 'undefined') {
+      setIsFixed(
+        document.documentElement.clientHeight > document.body.clientHeight
+      );
+    }
+  });
 
   return (
-    <Wrapper fixed={isFixed}>
-      <List>
-        <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
-        {!isMobile && <Item>San Diego, California</Item>}
-        <Item>
-          <a href="mailto:info@lumini.me">info@lumini.me</a>
-        </Item>
-      </List>
-    </Wrapper>
+    <footer className="footer" css={isFixed ? fixedStyles : null}>
+      <Content
+        css={css`
+          padding: 0;
+          height: 4em;
+          display: flex;
+          align-items: center;
+        `}
+      >
+        <List>
+          <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
+          <Item className="hide-on-mobile">California, United States.</Item>
+          <Item>
+            <a href="mailto:info@lumini.me">info@lumini.me</a>
+          </Item>
+        </List>
+      </Content>
+    </footer>
   );
 };
 

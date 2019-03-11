@@ -1,20 +1,12 @@
 import React from 'react';
-import { css } from '@emotion/core';
+import cx from 'classnames';
 
-const base = css`
-  margin: 0 auto;
-  max-width: 1150px;
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0;
-  .device-mobile & {
-    max-width: 90%;
-  }
-`;
+import '../styles/content.scss';
 
-const Content = ({ children }) => (
-  <div css={base} className="content">
+const Content = ({ children, className, ...props }) => (
+  <section className={cx('content', className)} {...props}>
     {children}
-  </div>
+  </section>
 );
 
 export default Content;
