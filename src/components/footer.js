@@ -36,7 +36,7 @@ const Footer = () => {
           padding: 0;
         `}
       >
-        <article className="footer_article">
+        <article>
           <List>
             <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
             <Item className="hide-on-mobile">California, United States.</Item>

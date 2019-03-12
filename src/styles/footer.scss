@@ -6,15 +6,6 @@
   @include device-WIDER-than(mobile) {
     margin-top: 2.55rem;
   }
-
-  .footer_article {
-    display: flex;
-    align-items: center;
-    height: 3.9rem;
-    @include device-WIDER-than(mobile) {
-      height: 2.25rem;
-    }
-  }
 }
 
 .horizontal-list {
@@ -24,20 +15,31 @@
   list-style-type: none;
   color: white;
 
-  width: 100%;
-  font-size: 0.575rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 3.72rem;
+  @include device-WIDER-than(mobile) {
+    height: 2.25rem;
+  }
+
+  @include device-NARROWER-than(mobile) {
+    width: 100%;
+    font-size: 0.65rem;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+  }
+
   @include device-WIDER-than(mobile) {
     width: auto;
     font-size: 0.5rem;
-    display: block;
+    justify-content: flex-start;
     padding-left: 1.27rem;
-    text-align: left;
   }
 }
 
 .horizontal-list_item {
   display: inline;
+  margin: 0;
   &:not(:first-of-type) {
     margin-left: 1rem;
   }
