@@ -3,6 +3,9 @@ module.exports = {
     title: `Lumini`,
     description: `Theoretical science research for advanced technologies. We are developing foundational technologies, applying new thinking for near-future applications.`,
     author: `@nilsforsblom`,
+    authorId: `14014932`, // http://gettwitterid.com/?user_name=nilsforsblom
+    siteUrl: `http://lumini.me`, // no trailing slash && must be http!
+    socialMediaCard: `lumini-card.jpg` // must be jpg!
   },
   plugins: [
     `gatsby-plugin-sass`,
