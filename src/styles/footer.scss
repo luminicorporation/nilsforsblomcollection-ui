@@ -2,28 +2,37 @@
 
 .footer {
   background-color: #121212;
-  margin-top: 0;
+  margin-top: 1.9rem;
   @include device-WIDER-than(mobile) {
     margin-top: 2.55rem;
+  }
+
+  .footer_article {
+    display: flex;
+    align-items: center;
+    height: 3.9rem;
+    @include device-WIDER-than(mobile) {
+      height: 2.25rem;
+    }
   }
 }
 
 .horizontal-list {
   padding: 0;
   margin: 0;
-  padding-left: 1.27rem;
   text-transform: uppercase;
   list-style-type: none;
   color: white;
 
   width: 100%;
-  font-size: 10px;
-  display: flex;
-  justify-content: space-between;
+  font-size: 0.575rem;
+  text-align: center;
   @include device-WIDER-than(mobile) {
     width: auto;
     font-size: 0.5rem;
     display: block;
+    padding-left: 1.27rem;
+    text-align: left;
   }
 }
 
@@ -36,10 +45,6 @@
   @include device-NARROWER-than(mobile) {
     &.hide-on-mobile {
       display: none;
-    }
-    margin: 0;
-    &:not(:first-of-type) {
-      margin-left: auto;
     }
   }
 }

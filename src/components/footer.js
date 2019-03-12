@@ -30,13 +30,7 @@ const Footer = () => {
           padding: 0;
         `}
       >
-        <article
-          css={css`
-            height: 2.25rem;
-            display: flex;
-            align-items: center;
-          `}
-        >
+        <article className="footer_article">
           <List>
             <Item>© {new Date().getFullYear()} Lumini Corporation Inc.</Item>
             <Item className="hide-on-mobile">California, United States.</Item>
