@@ -4,13 +4,14 @@
   background-color: #121212;
   margin-top: 0;
   @include device-WIDER-than(mobile) {
-    margin-top: 80px;
+    margin-top: 2.55rem;
   }
 }
 
 .horizontal-list {
   padding: 0;
   margin: 0;
+  padding-left: 1.27rem;
   text-transform: uppercase;
   list-style-type: none;
   color: white;
@@ -21,7 +22,7 @@
   justify-content: space-between;
   @include device-WIDER-than(mobile) {
     width: auto;
-    font-size: 12px;
+    font-size: 0.5rem;
     display: block;
   }
 }
@@ -29,7 +30,7 @@
 .horizontal-list_item {
   display: inline;
   &:not(:first-of-type) {
-    margin-left: 20px;
+    margin-left: 1rem;
   }
 
   @include device-NARROWER-than(mobile) {

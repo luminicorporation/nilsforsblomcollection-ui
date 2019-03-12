@@ -8,6 +8,8 @@ import SEO from '../components/seo';
 import Content from '../components/content';
 import '../styles/index.scss';
 
+const NoWrap = p => <span style={{ whiteSpace: 'nowrap' }}>{p.children}</span>;
+
 const IndexPage = () => (
   <Layout>
     <Content>
@@ -28,8 +30,8 @@ const IndexPage = () => (
         <GreaterThanCaret />
         <p className="paragraph">
           Theoretical science research for advanced technologies. We are
-          developing foundational technologies, applying new thinking for
-          near-future applications.
+          developing foundational technologies, applying new thinking for{' '}
+          <NoWrap>near-future</NoWrap> applications.
         </p>
       </article>
     </Content>

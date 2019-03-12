@@ -32,7 +32,7 @@ const Footer = () => {
       >
         <article
           css={css`
-            height: 4em;
+            height: 2.25rem;
             display: flex;
             align-items: center;
           `}

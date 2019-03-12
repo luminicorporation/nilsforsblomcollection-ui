@@ -1,7 +1,9 @@
 @import 'media-queries';
 
 .greater-than-caret {
-  width: 100px;
+  width: 4.24rem;
+  margin-left: 0.2rem;
+  margin-bottom: 0;
 
   display: none;
   @include device-WIDER-than(mobile) {
