@@ -1,31 +1,27 @@
 @import 'media-queries';
 
-// This stylesheet adds a background with a red tint to easily
-// identify the issues with the layout.
+/**
+ * IMPORTANT: This file needs to be imported in src/components/layout.js
+ *
+ * This stylesheet adds a background with a red tint to easily identify
+ * the issues with the layout.
+ */
 
 body {
   @include device-WIDER-than(mobile) {
-    background:
-    /* top, transparent red, faked with gradient */ linear-gradient(
-        rgba(255, 0, 0, 0.45),
-        rgba(255, 0, 0, 0.45)
-      ),
-      /* bottom, image */ url('../images/overlay-desktop.png');
+    background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+      url('../images/overlay-desktop.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
 
   @include device-NARROWER-than(mobile) {
-    background:
-    /* top, transparent red, faked with gradient */ linear-gradient(
-        rgba(255, 0, 0, 0.45),
-        rgba(255, 0, 0, 0.45)
-      ),
-      /* bottom, image */ url('../images/overlay-mobile.png');
+    background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+      url('../images/overlay-mobile.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    background-position: 50% 100%;
   }
 
   // fade direct children of body to allow seeing through
