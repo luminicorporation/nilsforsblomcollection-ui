@@ -16,6 +16,9 @@ import '../styles/background.scss';
 import '../styles/typefaces.scss';
 import '../styles/layout.scss';
 
+// To activate an overlay to check the layout vs an image, uncomment:
+// import '../styles/overlay.scss';
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
