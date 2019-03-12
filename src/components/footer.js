@@ -14,7 +14,9 @@ const fixedStyles = css`
 `;
 
 const Footer = () => {
-  const [isFixed, setIsFixed] = useState(false);
+  const [isFixed, setIsFixed] = useState(null);
+  const hideFooter = isFixed === null;
+
   useResizeEvent(() => {
     if (typeof document !== 'undefined') {
       setIsFixed(
@@ -24,7 +26,11 @@ const Footer = () => {
   });
 
   return (
-    <footer className="footer" css={isFixed ? fixedStyles : null}>
+    <footer
+      className="footer"
+      style={{ display: hideFooter ? 'none' : 'block' }}
+      css={isFixed === true ? fixedStyles : null}
+    >
       <Content
         css={css`
           padding: 0;
