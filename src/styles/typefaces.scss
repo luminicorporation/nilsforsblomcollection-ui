@@ -11,11 +11,12 @@ body {
   font-family: 'NeoTech';
   font-weight: 600;
   font-style: normal;
+  font-display: fallback; // https://css-tricks.com/font-display-masses/#article-header-id-1
   src: url('../fonts/NeoTech-Medium.otf') format('opentype');
 }
 
 .neotech-med {
-  font-family: 'NeoTech';
+  font-family: 'NeoTech', 'Helvetica', 'Arial', sans-serif;
   font-weight: 600;
 }
 
@@ -23,12 +24,13 @@ body {
   font-family: 'OpenSans';
   font-weight: 300;
   font-style: normal;
+  font-display: fallback; // https://css-tricks.com/font-display-masses/#article-header-id-1
   src: url('../fonts/OpenSans-Light.ttf') format('truetype');
 }
 
 body,
 .opensans-light {
-  font-family: 'OpenSans';
+  font-family: 'OpenSans', 'Helvetica', 'Arial', sans-serif;
   font-weight: 300;
 }
 
@@ -36,10 +38,11 @@ body,
   font-family: 'OpenSans';
   font-weight: 600;
   font-style: normal;
+  font-display: fallback; // https://css-tricks.com/font-display-masses/#article-header-id-1
   src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
 }
 
 .opensans-semibold {
-  font-family: 'OpenSans';
+  font-family: 'OpenSans', 'Helvetica', 'Arial', sans-serif;
   font-weight: 600;
 }
