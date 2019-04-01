@@ -17,7 +17,7 @@ const IndexPage = () => (
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <h1 className="neotech-med title">
         Nils Forsblom
-        <br /> Foundation
+        <br /> Collection
       </h1>
       <hr className="horizontal-separator" />
       <article
@@ -31,7 +31,7 @@ const IndexPage = () => (
         <GreaterThanCaret />
         <div className="paragraph">
           <p>
-            <strong>Nils Forsblom Foundation</strong>
+            <strong>Nils Forsblom Collection</strong>
           </p>
           <p>Coming soon...</p>
           {/* <p className="paragraph">
@@ -45,8 +45,8 @@ const IndexPage = () => (
             learning, Neural networks, and more.
           </p>
           <p>
-            Learn more about Nils Forsblom Foundation Research:{' '}
-            <Anchor href="mailto:info@nilsforsblomfoundation.com">info@nilsforsblomfoundation.com</Anchor>.
+            Learn more about Nils Forsblom Collection Research:{' '}
+            <Anchor href="mailto:info@nilsforsblomcollection.com">info@nilsforsblomcollection.com</Anchor>.
           </p> */}
         </div>
       </article>

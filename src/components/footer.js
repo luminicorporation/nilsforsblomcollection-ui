@@ -39,12 +39,12 @@ const Footer = () => {
         <article>
           <List>
             <Item>
-              © {new Date().getFullYear()} Nils Forsblom Foundation Inc.
+              © {new Date().getFullYear()} Nils Forsblom Collection Inc.
             </Item>
             <Item className="hide-on-mobile">California, United States.</Item>
             <Item>
-              <Anchor href="mailto:info@nilsforsblomfoundation.com">
-                info@nilsforsblomfoundation.com
+              <Anchor href="mailto:info@nilsforsblomcollection.com">
+                info@nilsforsblomcollection.com
               </Anchor>
             </Item>
           </List>

@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cd24e33f-c787-4f71-81f5-1cc939a66199/deploy-status)](https://app.netlify.com/sites/nilsforsblomfoundation/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fc246da-81a7-47dc-b781-d51a944e8e59/deploy-status)](https://app.netlify.com/sites/nilsforsblomcollection/deploys)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">

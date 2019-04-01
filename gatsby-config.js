@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Nils Forsblom Foundation`,
+    title: `Nils Forsblom Collection`,
     description: ``,
     author: `@nilsforsblom`,
     authorId: `14014932`, // http://gettwitterid.com/?user_name=nilsforsblom
-    siteUrl: `http://nilsforsblomfoundation.com`, // no trailing slash && must be http!
-    socialMediaCard: `nilsforsblomfoundation-card.jpg` // must be jpg!
+    siteUrl: `http://nilsforsblomcollection.com`, // no trailing slash && must be http!
+    socialMediaCard: `nilsforsblomcollection-card.jpg` // must be jpg!
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `nilsforsblomfoundation`,
-        short_name: `nilsforsblomfoundation`,
+        name: `nilsforsblomcollection`,
+        short_name: `nilsforsblomcollection`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
