@@ -7,16 +7,17 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Content from '../components/content';
 import '../styles/index.scss';
+// import { Anchor } from '../components/common/anchor';
 
-const NoWrap = p => <span style={{ whiteSpace: 'nowrap' }}>{p.children}</span>;
+// const NoWrap = p => <span style={{ whiteSpace: 'nowrap' }}>{p.children}</span>;
 
 const IndexPage = () => (
   <Layout>
     <Content>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <h1 className="neotech-med title">
-        Lumini
-        <br /> Corporation
+        Nils Forsblom
+        <br /> Foundation
       </h1>
       <hr className="horizontal-separator" />
       <article
@@ -28,11 +29,26 @@ const IndexPage = () => (
         `}
       >
         <GreaterThanCaret />
-        <p className="paragraph">
-          Theoretical science research for advanced technologies. We are
-          developing foundational technologies, applying new thinking for{' '}
-          <NoWrap>near-future</NoWrap> applications.
-        </p>
+        <div className="paragraph">
+          <p>
+            <strong>Nils Forsblom Foundation</strong>
+          </p>
+          <p>Coming soon...</p>
+          {/* <p className="paragraph">
+            Theoretical science research for advanced technologies. We are
+            developing foundational technologies, applying new thinking for{' '}
+            <NoWrap>near-future</NoWrap> applications.
+          </p>
+          <p>
+            Advancing key research areas: Mobile computing, Camera computing,
+            Mobile sensors, Artificial intelligence, Cloud automation, Machine
+            learning, Neural networks, and more.
+          </p>
+          <p>
+            Learn more about Nils Forsblom Foundation Research:{' '}
+            <Anchor href="mailto:info@nilsforsblomfoundation.com">info@nilsforsblomfoundation.com</Anchor>.
+          </p> */}
+        </div>
       </article>
     </Content>
   </Layout>

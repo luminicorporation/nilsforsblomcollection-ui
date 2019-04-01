@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://lumini.netlify.com/* http://www.lumini.me/:splat 301!
+http://nilsforsblomfoundation.netlify.com/* http://www.nilsforsblomfoundation.com/:splat 301!
