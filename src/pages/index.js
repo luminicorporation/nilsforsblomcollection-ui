@@ -14,7 +14,10 @@ import '../styles/index.scss';
 const IndexPage = () => (
   <Layout>
     <Content>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO
+        title="Home"
+        keywords={[`nils forsblom`, `fondazione`, `collection`]}
+      />
       <h1 className="neotech-med title">
         Nils Forsblom
         <br /> Collection
