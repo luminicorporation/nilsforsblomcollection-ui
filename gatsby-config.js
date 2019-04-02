@@ -4,7 +4,7 @@ module.exports = {
     description: ``,
     author: `@nilsforsblom`,
     authorId: `14014932`, // http://gettwitterid.com/?user_name=nilsforsblom
-    siteUrl: `http://nilsforsblomcollection.com`, // no trailing slash && must be http!
+    siteUrl: `http://nilsforsblomcollection.org`, // no trailing slash && must be http!
     socialMediaCard: `nilsforsblomcollection-card.jpg` // must be jpg!
   },
   plugins: [

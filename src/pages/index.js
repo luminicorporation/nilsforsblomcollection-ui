@@ -46,7 +46,7 @@ const IndexPage = () => (
           </p>
           <p>
             Learn more about Nils Forsblom Collection Research:{' '}
-            <Anchor href="mailto:info@nilsforsblomcollection.com">info@nilsforsblomcollection.com</Anchor>.
+            <Anchor href="mailto:info@nilsforsblomcollection.org">info@nilsforsblomcollection.org</Anchor>.
           </p> */}
         </div>
       </article>

@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://nilsforsblomcollection.netlify.com/* http://www.nilsforsblomcollection.com/:splat 301!
+http://nilsforsblomcollection.netlify.com/* http://www.nilsforsblomcollection.org/:splat 301!

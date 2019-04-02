@@ -3,7 +3,7 @@
   "private": true,
   "description": "Theoretical science research for advanced technologies. We are developing foundational technologies, applying new thinking for near-future applications.",
   "version": "0.1.0",
-  "author": "Nils Forsblom <nils@nilsforsblomcollection.com>",
+  "author": "Nils Forsblom <nils@nilsforsblomcollection.org>",
   "dependencies": {
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",

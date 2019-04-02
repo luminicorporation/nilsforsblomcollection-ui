@@ -43,8 +43,8 @@ const Footer = () => {
             </Item>
             <Item className="hide-on-mobile">California, United States.</Item>
             <Item>
-              <Anchor href="mailto:info@nilsforsblomcollection.com">
-                info@nilsforsblomcollection.com
+              <Anchor href="mailto:info@nilsforsblomcollection.org">
+                info@nilsforsblomcollection.org
               </Anchor>
             </Item>
           </List>
