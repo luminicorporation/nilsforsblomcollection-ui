@@ -40,7 +40,10 @@ function SEO({ description, lang, meta, keywords, title }) {
   );
 
   const socialMediaCardSrc = `${siteUrl}/${socialMediaCard}`;
-  const metaSiteTitle = title !== 'Home' ? `${siteName} | ${title}` : siteName;
+  const metaSiteTitle =
+    title !== 'Home'
+      ? `${siteName} - ${title}`
+      : `${siteName} - Fondazione Nils Forsblom`;
 
   return (
     <Helmet
