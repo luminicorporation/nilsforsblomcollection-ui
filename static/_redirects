@@ -1,2 +1,16 @@
 # Redirect default Netlify subdomain to primary domain
 http://nilsforsblomcollection.netlify.com/* http://www.nilsforsblomcollection.org/:splat 301!
+
+# Redirect aliases to primary domain
+
+# nilsforsblomcollection.com
+http://nilsforsblomcollection.com/* http://www.nilsforsblomcollection.org/:splat 301!
+# https://nilsforsblomcollection.com/* https://www.nilsforsblomcollection.org/:splat 301!
+
+# nilsforsblomfoundation.org
+http://nilsforsblomfoundation.org/* http://www.nilsforsblomcollection.org/:splat 301!
+# https://nilsforsblomfoundation.org/* https://www.nilsforsblomcollection.org/:splat 301!
+
+# nilsforsblomfoundation.com
+http://nilsforsblomfoundation.com/* http://www.nilsforsblomcollection.org/:splat 301!
+# https://nilsforsblomfoundation.com/* https://www.nilsforsblomcollection.org/:splat 301!
