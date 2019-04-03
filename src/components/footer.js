@@ -1,11 +1,12 @@
 import React from 'react';
 
+import footerImage from '../images/NFC_Artwork_Desktop_02.jpg';
 import '../styles/footer.scss';
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <img src="" alt="" />
+      <img src={footerImage} alt="nils forsblom collection outro" />
     </footer>
   );
 };

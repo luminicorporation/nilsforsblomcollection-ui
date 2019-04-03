@@ -4,6 +4,7 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import headerImage from '../images/NFC_Artwork_Desktop_01.png';
 import '../styles/index.scss';
 
 const IndexPage = () => (
@@ -19,7 +20,7 @@ const IndexPage = () => (
     />
     <article>
       <header>
-        <img src="" alt="" />
+        <img src={headerImage} alt="nils forsblom collection intro" />
         <p>
           The Nils Forsblom collection is based on deep philosophical,
           scientific, and visual interests in Arte Povera, Conceptual, Earth and
