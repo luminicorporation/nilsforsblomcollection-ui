@@ -10,7 +10,7 @@
 body {
   @include device-WIDER-than(mobile) {
     background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-      url('../images/overlay-desktop.png');
+      url('../images/overlay-desktop.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -18,10 +18,10 @@ body {
 
   @include device-NARROWER-than(mobile) {
     background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-      url('../images/overlay-mobile.png');
-    background-size: contain;
+      url('../images/overlay-mobile.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 0%;
   }
 
   // fade direct children of body to allow seeing through
