@@ -1,8 +1,1 @@
 @import 'media-queries';
-
-.main {
-  padding-top: 3.85rem;
-  @include device-WIDER-than(mobile) {
-    padding-top: 5.8rem;
-  }
-}
