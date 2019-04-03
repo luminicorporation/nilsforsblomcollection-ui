@@ -1,1 +1,17 @@
-@import 'media-queries';
+@import 'typefaces';
+
+.site-copyright {
+  @extend %tf-barlow-normal-700;
+  background-color: #bc9a5d;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2.4rem 1rem;
+  line-height: 1.04;
+  font-size: 1.09rem;
+  letter-spacing: -0.5px;
+  margin-top: -5px;
+  .name {
+    margin-bottom: 0.9rem;
+  }
+}

@@ -1,0 +1,26 @@
+@import 'typefaces.scss';
+
+.site-header {
+  padding: 2.55rem 2.65rem 0;
+  .site-header_title {
+    @extend %tf-barlow-normal-900;
+    font-size: 3.2em;
+    text-transform: uppercase;
+    line-height: 0.88;
+    letter-spacing: -1.5px;
+    .site-header_link {
+      display: inline-block;
+    }
+  }
+
+  .site-header_lead {
+    @extend %tf-barlow-normal-700;
+    border-top: 0.5rem solid black;
+    margin-top: 2.9rem;
+    padding-top: 2.95rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+    line-height: 0.85;
+  }
+}

@@ -1,1 +1,29 @@
-@import 'media-queries';
+@import 'typefaces';
+
+.site-main {
+  padding: 1rem 2.65rem 0;
+  p {
+    margin-bottom: 2.3rem;
+  }
+  .index_header-image {
+    min-width: 105%;
+    margin-left: -2.5%;
+  }
+  .index_header-heading {
+    @extend %tf-barlow-normal-700;
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+  .index_artists {
+    @extend %tf-barlow-italic-400;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    line-height: 1.15;
+  }
+  .index_summary {
+    @extend %tf-barlow-normal-400;
+    font-size: 1.1rem;
+    letter-spacing: -0.2px;
+    line-height: 1.25;
+  }
+}

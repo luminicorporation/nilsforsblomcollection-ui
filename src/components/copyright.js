@@ -4,14 +4,14 @@ import '../styles/copyright.scss';
 
 const Copyright = () => {
   return (
-    <small className="site_copyright">
-      <p>
+    <div className="site-copyright">
+      <p className="name">
         Fondazione Nils Forsblom
         <br />
-        The Nils Frosblom Collection
+        The Nils Forsblom Collection
       </p>
-      <p>© 1994 All rights reserved.</p>
-    </small>
+      <p className="year">© 1994 All rights reserved</p>
+    </div>
   );
 };
 

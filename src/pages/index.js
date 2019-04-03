@@ -10,7 +10,7 @@ import '../styles/index.scss';
 const IndexPage = () => (
   <Layout
     header={{
-      siteTitle: 'Nils Forsblom Collection',
+      siteTitle: 'Nils Forsblom Collection',
       lead: 'The need and the search for balance. A singular view.',
     }}
   >
@@ -18,10 +18,14 @@ const IndexPage = () => (
       title="Home"
       keywords={[`nils forsblom`, `fondazione`, `collection`]}
     />
-    <article>
+    <article className="index">
       <header>
-        <img src={headerImage} alt="nils forsblom collection intro" />
-        <p>
+        <img
+          className="index_header-image"
+          src={headerImage}
+          alt="nils forsblom collection intro"
+        />
+        <p className="index_header-heading">
           The Nils Forsblom collection is based on deep philosophical,
           scientific, and visual interests in Arte Povera, Conceptual, Earth and
           Land, Light and Space, Post-minimalism, Political, and Text-based art.
@@ -29,7 +33,7 @@ const IndexPage = () => (
           monumental-scale works from artists such as:
         </p>
       </header>
-      <p>
+      <p className="index_artists">
         Pier Paolo Calzolari • Jannis Kounellis • Mario Merz • Christian
         Boltanski • Richard Long • Joseph Kosuth • Daniel Buren • Tara Donavan •
         Robert Rauschenberg  • John Davies • Giuseppe Penone • Thomas Ruff • Ola
@@ -49,12 +53,12 @@ const IndexPage = () => (
         Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni Tàpies,
         among many others. 
       </p>
-      <p>
+      <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
         and the personal need to search for balance. This sentiment is perhaps
         best expressed by an artist represented in the collection, Pier Paolo
-        Calzolari once noting "When the dreamer dies, what happens to the
-        dream?"
+        Calzolari once noting{' '}
+        <i>"When the dreamer dies, what happens to the dream?"</i>
       </p>
     </article>
   </Layout>
