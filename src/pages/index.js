@@ -8,7 +8,10 @@ import '../styles/index.scss';
 
 const IndexPage = () => (
   <Layout
-    header={{ lead: 'The need and the search for balance. A singular view.' }}
+    header={{
+      siteTitle: 'Nils Forsblom Collection',
+      lead: 'The need and the search for balance. A singular view.',
+    }}
   >
     <SEO
       title="Home"
