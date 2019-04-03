@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const Header = ({ siteTitle, lead = '' }) => (
-  <header>
+  <header className="site_header">
     <h1 style={{ margin: 0 }}>
       <Link
         to="/"

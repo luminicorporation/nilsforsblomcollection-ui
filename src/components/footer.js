@@ -5,7 +5,7 @@ import '../styles/footer.scss';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="site_footer">
       <img src={footerImage} alt="nils forsblom collection outro" />
     </footer>
   );

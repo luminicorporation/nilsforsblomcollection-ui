@@ -4,7 +4,7 @@ import '../styles/copyright.scss';
 
 const Copyright = () => {
   return (
-    <small className="copyright">
+    <small className="site_copyright">
       <p>
         Fondazione Nils Forsblom
         <br />
