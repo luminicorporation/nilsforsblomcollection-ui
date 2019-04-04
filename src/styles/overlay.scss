@@ -8,24 +8,35 @@
  */
 
 body {
-  @include device-WIDER-than(mobile) {
-    background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-      url('../images/overlay-desktop.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  }
+  position: relative;
+  &::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
 
-  @include device-NARROWER-than(mobile) {
-    background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
-      url('../images/overlay-mobile.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-  }
+    @include device-WIDER-than(mobile) {
+      background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+        url('../images/overlay-desktop.png');
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: 50% 0%;
+    }
 
-  // fade direct children of body to allow seeing through
-  > * {
-    opacity: 0.75;
+    @include device-NARROWER-than(mobile) {
+      background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+        url('../images/overlay-mobile.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 0%;
+    }
+
+    // fade direct children of body to allow seeing through
+    > * {
+      opacity: 0.75;
+    }
   }
 }
