@@ -1,9 +1,11 @@
 @import 'typefaces';
+@import 'colors';
+@import 'media-queries';
 
-.site-copyright {
+.layout > .site-copyright {
   @extend %tf-barlow-normal-700;
-  background-color: #bc9a5d;
-  color: white;
+  background-color: $orange;
+  color: $white;
   text-align: center;
   text-transform: uppercase;
   padding: 2.4rem 1rem;
@@ -15,5 +17,33 @@
   }
   p:last-child {
     margin-bottom: 0;
+  }
+
+  @include device-WIDER-than(mobile) {
+    display: none;
+  }
+}
+
+.desktop-grid > .site-copyright {
+  display: none;
+  text-align: left;
+  font-size: 0.8rem;
+  color: $black;
+  padding: 2.55rem 2.65rem 0;
+  line-height: 1;
+  text-transform: uppercase;
+
+  p {
+    @extend %tf-barlow-normal-700;
+    &:not(:last-child) {
+      margin: 0;
+    }
+    &:last-child {
+      margin-bottom: 2.7rem;
+    }
+  }
+
+  @include device-WIDER-than(mobile) {
+    display: block;
   }
 }

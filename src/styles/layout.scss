@@ -1,2 +1,25 @@
 @import 'media-queries';
-// @import 'overlay';
+
+@include device-WIDER-than(mobile) {
+  // GRID
+  .desktop-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header main'
+      '. main'
+      '. main'
+      '. main'
+      'copyright main';
+    .site-header {
+      grid-area: header;
+    }
+    .site-main {
+      grid-area: main;
+    }
+    .site-copyright {
+      grid-area: copyright;
+    }
+  }
+}

@@ -2,6 +2,10 @@
 
 .site-footer {
   img {
+    position: relative;
     margin-bottom: -0.3rem;
+    min-width: 102vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
