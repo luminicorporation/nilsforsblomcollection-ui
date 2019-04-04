@@ -22,7 +22,7 @@ const Header = ({ siteTitle, lead = '' }) => (
 );
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  siteTitle: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
 };
 
 Header.defaultProps = {
