@@ -10,12 +10,14 @@
     letter-spacing: -1.5px;
     .site-header_link {
       display: inline-block;
+      color: #343434;
     }
   }
 
   .site-header_lead {
+    color: #343434;
     @extend %tf-barlow-normal-700;
-    border-top: 0.5rem solid black;
+    border-top: 0.5rem solid #343434;
     margin-top: 2.9rem;
     padding-top: 2.95rem;
     font-size: 1.7rem;
