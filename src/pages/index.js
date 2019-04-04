@@ -10,7 +10,15 @@ import '../styles/index.scss';
 const IndexPage = () => (
   <Layout
     header={{
-      siteTitle: 'Nils Forsblom Collection',
+      siteTitle: (
+        <>
+          Nils
+          <br />
+          Forsblom
+          <br />
+          Collection
+        </>
+      ),
       lead: 'The need and the search for balance. A singular view.',
     }}
   >
