@@ -7,6 +7,18 @@ https://www.nilsforsblomfoundation.org/* https://www.nilsforsblomcollection.org/
 https://nilsforsblomfoundation.org/* https://www.nilsforsblomcollection.org/:splat 301!
 https://www.nilsforsblomfoundation.com/* https://www.nilsforsblomcollection.org/:splat 301!
 https://nilsforsblomfoundation.com/* https://www.nilsforsblomcollection.org/:splat 301!
+https://www.nilsforsblomcollection.me/* https://www.nilsforsblomcollection.org/:splat 301!
+https://nilsforsblomcollection.me/* https://www.nilsforsblomcollection.org/:splat 301!
+https://www.fondazionenilsforsblom.com/* https://www.nilsforsblomcollection.org/:splat 301!
+https://fondazionenilsforsblom.com/* https://www.nilsforsblomcollection.org/:splat 301!
+https://www.fondazionenilsforsblom.org/* https://www.nilsforsblomcollection.org/:splat 301!
+https://fondazionenilsforsblom.org/* https://www.nilsforsblomcollection.org/:splat 301!
+https://www.fondazionenilsforsblom.me/* https://www.nilsforsblomcollection.org/:splat 301!
+https://fondazionenilsforsblom.me/* https://www.nilsforsblomcollection.org/:splat 301!
+https://www.foundationnilsforsblom.com/* https://www.nilsforsblomcollection.org/:splat 301!
+https://foundationnilsforsblom.com/* https://www.nilsforsblomcollection.org/:splat 301!
+https://www.foundationnilsforsblom.org/* https://www.nilsforsblomcollection.org/:splat 301!
+https://foundationnilsforsblom.org/* https://www.nilsforsblomcollection.org/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://nilsforsblomcollection.netlify.com/* https://www.nilsforsblomcollection.org/:splat 301!
