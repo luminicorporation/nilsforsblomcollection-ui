@@ -5,12 +5,13 @@ import '../styles/copyright.scss';
 const Copyright = () => {
   return (
     <div className="site-copyright">
-      <p className="name">
+      <p>
         Fondazione Nils Forsblom
         <br />
         The Nils Forsblom Collection
       </p>
-      <p className="year">© 1994 All rights reserved</p>
+      <p>Riyadh, Saudi Arabia. ليكن الله معك.</p>
+      <p>© 1994 All rights reserved</p>
     </div>
   );
 };

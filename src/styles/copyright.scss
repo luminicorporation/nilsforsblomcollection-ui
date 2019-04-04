@@ -11,10 +11,10 @@
   font-size: 1.09rem;
   letter-spacing: -0.5px;
   margin-top: -5px;
-  .name {
+  p:not(:last-child) {
     margin-bottom: 0.9rem;
   }
-  .year {
+  p:last-child {
     margin-bottom: 0;
   }
 }
