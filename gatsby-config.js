@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Nils Forsblom Collection`,
-    description: ``,
+    description: `Art collection based on deep philosophical, scientific, and visual interests.`,
     author: `@nilsforsblom`,
     authorId: `14014932`, // http://gettwitterid.com/?user_name=nilsforsblom
     siteUrl: `http://nilsforsblomcollection.org`, // no trailing slash && must be http!
