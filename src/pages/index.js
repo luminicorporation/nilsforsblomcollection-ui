@@ -4,7 +4,7 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import headerImage from '../images/NFC_Artwork_Desktop_01.png';
+import headerImage from '../images/NFC_Artwork_Desktop_01.jpf';
 import '../styles/index.scss';
 
 const IndexPage = () => (
