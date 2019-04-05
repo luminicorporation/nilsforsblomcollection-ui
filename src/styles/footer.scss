@@ -6,7 +6,7 @@
 
     @include device-WIDER-than(mobile) {
       position: relative;
-      min-width: 100vw;
+      min-width: 101vw;
       left: 50%;
       transform: translateX(-50%);
     }
