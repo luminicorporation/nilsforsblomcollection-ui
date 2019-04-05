@@ -1,5 +1,6 @@
 @import 'typefaces';
 @import 'colors';
+@import 'media-queries';
 
 .site-main {
   padding: 1rem 2.65rem 0;
@@ -9,12 +10,20 @@
   .index_header-image {
     min-width: 105%;
     margin-left: -2.5%;
+    @include device-WIDER-than(mobile) {
+      min-width: 132%;
+      margin-left: -16%;
+      margin-top: -16%;
+    }
   }
   .index_header-heading {
     @extend %tf-barlow-normal-700;
     font-size: 1.2rem;
     line-height: 1.25;
     color: $black;
+    @include device-WIDER-than(mobile) {
+      font-size: 1.1rem;
+    }
   }
   .index_artists {
     @extend %tf-barlow-italic-400;
@@ -22,6 +31,9 @@
     letter-spacing: -1px;
     line-height: 1.15;
     color: $gray;
+    @include device-WIDER-than(mobile) {
+      font-size: 0.93rem;
+    }
   }
   .index_summary {
     @extend %tf-barlow-normal-400;
@@ -29,5 +41,14 @@
     letter-spacing: -0.2px;
     line-height: 1.25;
     color: $black;
+    @include device-WIDER-than(mobile) {
+      font-size: 1rem;
+      line-height: 1.15;
+      margin-bottom: 0;
+    }
+  }
+
+  @include device-WIDER-than(mobile) {
+    padding: 5.4rem;
   }
 }
