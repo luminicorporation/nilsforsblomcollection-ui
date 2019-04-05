@@ -2,7 +2,7 @@
 
 @include device-WIDER-than(mobile) {
   // GRID
-  .desktop-grid {
+  .layout {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
@@ -11,12 +11,16 @@
       '. main'
       '. main'
       '. main'
-      'copyright main';
+      'copyright main'
+      'footer footer';
     .site-header {
       grid-area: header;
     }
     .site-main {
       grid-area: main;
+    }
+    .site-footer {
+      grid-area: footer;
     }
     .site-copyright {
       grid-area: copyright;

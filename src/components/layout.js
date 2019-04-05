@@ -33,13 +33,8 @@ const Layout = ({ header = {}, children }) => (
     `}
     render={data => (
       <div className="layout">
-        {/* NOTE: the grid will be only a grid when in desktop */}
-        <div className="desktop-grid">
-          <Header siteTitle={data.site.siteMetadata.title} {...header} />
-          <main className="site-main">{children}</main>
-          {/* NOTE: the copyright is repeated on purpose and manipulated with CSS */}
-          <Copyright />
-        </div>
+        <Header siteTitle={data.site.siteMetadata.title} {...header} />
+        <main className="site-main">{children}</main>
         <Footer />
         <Copyright />
       </div>
