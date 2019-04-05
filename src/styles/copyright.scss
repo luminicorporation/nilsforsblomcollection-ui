@@ -22,9 +22,6 @@
     }
     &:last-child {
       margin-bottom: 0;
-      @include device-WIDER-than(mobile) {
-        margin-bottom: 2.7rem;
-      }
     }
   }
 
@@ -33,7 +30,7 @@
     font-size: 0.8rem;
     color: $black;
     background-color: transparent;
-    padding: 2.55rem 2.65rem 0;
+    padding: 5.4rem;
     line-height: 1;
     text-transform: uppercase;
   }
