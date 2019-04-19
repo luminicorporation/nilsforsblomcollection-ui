@@ -47,19 +47,19 @@ const IndexPage = () => (
         Robert Rauschenberg • Robert Longo • John Davies • Giuseppe Penone •
         Thomas Ruff • Ola Kolehmainen • Meg Webster • Callum Innes • Jacob
         Hashimoto • Ron Gorchov • Hans Hofmann • Manolo Millares • Arman • Sam
-        Francis • Mark Hagen • Eric Freeman • Richard Dupont • Conrand Atkinson
-        • Bard Breivik • Gerhard Merz • Valerie Krause  • Davide Balliano • Gian
-        Maria Tosatti • Marzia Migliora • Jacob Kassay • Vladimir Velickovic •
-        John Millei • Alexander Calder • Michelangelo Pistoletto • Mark Francis
-        • Ron Janowich • Gerhard Byrne • Kristjan Gudmundsson • Jasmin Sian •
-        James Busby • Leonid Lamm • Eric Bainbridge • James Brown • Shimon
-        Okshteyn • Ma­ri­jke van War­mer­dam • Gabriela Fridriksdottir • Julian
-        Schnabel • Adrian Schiess • Mary Lucier • Gisela Colon • Lee Jaffe •
-        José María Sicilia • David Amico • Ross Bleckner • Charles Fine • Aaron
-        Young • Randy Wray • Ara Dymond • Graham Collins • Doug and Mike Starn •
-        Petra Kralicova • Dieter Hacker • Tim Ebner • Georgia Papageorge •
-        Robert Morris • John LeKay • Mimmo Paladino • Takaharu Fukuchi •
-        Susan Hutchinson • Antoni Tàpies, among many others.
+        Francis • Mark Hagen • Garth Weiser • Eric Freeman • Richard Dupont •
+        Conrand Atkinson • Bard Breivik • Gerhard Merz • Valerie Krause  •
+        Davide Balliano • Gian Maria Tosatti • Marzia Migliora • Jacob Kassay •
+        Vladimir Velickovic • John Millei • Alexander Calder • Michelangelo
+        Pistoletto • Mark Francis • Ron Janowich • Gerhard Byrne • Kristjan
+        Gudmundsson • Jasmin Sian • James Busby • Leonid Lamm • Eric Bainbridge
+        • James Brown • Shimon Okshteyn • Ma­ri­jke van War­mer­dam • Gabriela
+        Fridriksdottir • Julian Schnabel • Adrian Schiess • Mary Lucier • Gisela
+        Colon • Lee Jaffe • José María Sicilia • David Amico • Ross Bleckner •
+        Charles Fine • Aaron Young • Randy Wray • Ara Dymond • Graham Collins •
+        Doug and Mike Starn • Petra Kralicova • Dieter Hacker • Tim Ebner •
+        Georgia Papageorge • Robert Morris • John LeKay • Mimmo Paladino •
+        Takaharu Fukuchi • Susan Hutchinson • Antoni Tàpies, among many others.
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
