@@ -7,6 +7,10 @@ import SEO from '../components/seo';
 import headerImage from '../images/NFC_Artwork_Desktop_01.png';
 import '../styles/index.scss';
 
+const NoBreak = ({ children }) => (
+  <span style={{ whiteSpace: 'nowrap' }}>{children}</span>
+);
+
 const IndexPage = () => (
   <Layout
     header={{
@@ -62,7 +66,7 @@ const IndexPage = () => (
         Sanchez Rubio • Joel Shapiro • Sterling Ruby • Mariko Mori • Joe Goode •
         Liam Gillick • Antonio Saura • Georgia Papageorge • Robert Morris • John
         LeKay • Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni
-        Tàpies, among many others.
+        Tàpies, <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
@@ -71,7 +75,8 @@ const IndexPage = () => (
         Pier Paolo Calzolari once noting{' '}
         <i>"When the dreamer dies, what happens to the dream?"</i> The
         collection expands upon this exploration on a personal scale, engaging
-        art that offers an enveloping site-specific experiences.
+        art that offers an enveloping <NoBreak>site-specific</NoBreak>{' '}
+        experiences.
       </p>
     </article>
   </Layout>
