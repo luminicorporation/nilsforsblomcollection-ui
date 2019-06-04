@@ -58,16 +58,20 @@ const IndexPage = () => (
         • Mary Lucier • Gisela Colon • Lee Jaffe • José María Sicilia • David
         Amico • Ross Bleckner • Charles Fine • Aaron Young • Randy Wray • Ara
         Dymond • Graham Collins • Doug and Mike Starn • Petra Kralicova • Dieter
-        Hacker • Tim Ebner • Georgia Papageorge • Robert Morris • John LeKay •
-        Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni Tàpies,
-        among many others.
+        Hacker • Tim Ebner • Robert Petersen • John Laddie Dill • Katy Scimert •
+        Sanchez Rubio • Joel Shapiro • Sterling Ruby • Mariko Mori • Joe Goode •
+        Liam Gillick • Antonio Saura • Georgia Papageorge • Robert Morris • John
+        LeKay • Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni
+        Tàpies, among many others.
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
-        and the personal need to search for balance. This sentiment is perhaps
-        best expressed by an artist represented in the collection, Pier Paolo
-        Calzolari once noting{' '}
-        <i>"When the dreamer dies, what happens to the dream?"</i>
+        and Dr. Forsblom's personal need to search for balance. This sentiment
+        is perhaps best expressed by an artist represented in the collection,
+        Pier Paolo Calzolari once noting{' '}
+        <i>"When the dreamer dies, what happens to the dream?"</i> The
+        collection expands upon this exploration on a personal scale, engaging
+        art that offers an enveloping site-specific experiences.
       </p>
     </article>
   </Layout>
