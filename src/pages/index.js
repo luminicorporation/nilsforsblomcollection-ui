@@ -70,9 +70,9 @@ const IndexPage = () => (
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
-        and Dr. Forsblom's personal need to search for balance. This sentiment
-        is perhaps best expressed by an artist represented in the collection,
-        Pier Paolo Calzolari once noting{' '}
+        and <NoBreak>Dr. Forsblom's</NoBreak> personal need to search for
+        balance. This sentiment is perhaps best expressed by an artist
+        represented in the collection, Pier Paolo Calzolari once noting{' '}
         <i>"When the dreamer dies, what happens to the dream?"</i> The
         collection expands upon this exploration on a personal scale, engaging
         art that offers an enveloping <NoBreak>site-specific</NoBreak>{' '}
