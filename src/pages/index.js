@@ -66,7 +66,8 @@ const IndexPage = () => (
         Sanchez Rubio • Joel Shapiro • Sterling Ruby • Mariko Mori • Joe Goode •
         Liam Gillick • Antonio Saura • Georgia Papageorge • Robert Morris • John
         LeKay • Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni
-        Tàpies, <NoBreak>among many others.</NoBreak>
+        Tàpies • Andrea Marie Breiling • George Segal • Franco Angeli • Joseph
+        Beuys, <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
