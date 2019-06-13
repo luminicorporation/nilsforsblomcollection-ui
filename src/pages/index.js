@@ -71,10 +71,11 @@ const IndexPage = () => (
         <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
-        <b>The Nils Forsblom Collection</b> represent passage of time and space
-        and <NoBreak>Dr. Forsblom's</NoBreak> personal need to search for
-        balance. This sentiment is perhaps best expressed by an artist
-        represented in the collection, Pier Paolo Calzolari once noting{' '}
+        <b className="index_summary--header">The Nils Forsblom Collection</b>{' '}
+        represent passage of time and space and{' '}
+        <NoBreak>Dr. Forsblom's</NoBreak> personal need to search for balance.
+        This sentiment is perhaps best expressed by an artist represented in the
+        collection, Pier Paolo Calzolari once noting{' '}
         <i>"When the dreamer dies, what happens to the dream?"</i>. The
         collection expands upon the exploration on a personal scale, engaging
         art that offers an enveloping <NoBreak>site-specific</NoBreak>{' '}

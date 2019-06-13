@@ -41,10 +41,16 @@
     letter-spacing: -0.2px;
     line-height: 1.25;
     color: $black;
+    .index_summary--header {
+      display: block;
+    }
     @include device-WIDER-than(mobile) {
       font-size: 1rem;
       line-height: 1.15;
       margin-bottom: 0;
+      .index_summary--header {
+        display: inline;
+      }
     }
   }
 
