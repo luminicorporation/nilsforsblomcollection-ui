@@ -67,7 +67,8 @@ const IndexPage = () => (
         Liam Gillick • Antonio Saura • Georgia Papageorge • Robert Morris • John
         LeKay • Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni
         Tàpies • Andrea Marie Breiling • George Segal • Franco Angeli • Joseph
-        Beuys, <NoBreak>among many others.</NoBreak>
+        Beuys • Valerio Adami • Dennis Oppenheim • Nicole Eisenman,{' '}
+        <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
