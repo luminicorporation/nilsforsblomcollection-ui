@@ -67,7 +67,8 @@ const IndexPage = () => (
         Liam Gillick • Antonio Saura • Georgia Papageorge • Robert Morris • John
         LeKay • Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni
         Tàpies • Andrea Marie Breiling • George Segal • Franco Angeli • Joseph
-        Beuys • Valerio Adami • Dennis Oppenheim • Nicole Eisenman,{' '}
+        Beuys • Valerio Adami • Dennis Oppenheim • Nicole Eisenman • Robert
+        Graham • Jorg Sasse • Annette Lemieux,{' '}
         <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
