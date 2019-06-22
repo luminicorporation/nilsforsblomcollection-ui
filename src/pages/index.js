@@ -38,7 +38,7 @@ const IndexPage = () => (
           alt="nils forsblom collection intro"
         />
         <p className="index_header-heading">
-          The Nils Forsblom collection is based on deep philosophical,
+          The Nils Forsblom Collection is based on deep philosophical,
           scientific, and visual interests in Arte Povera, Conceptual, Earth and
           Land, Light and Space, Post-minimalism, Political, and Text-based art.
           A singular aesthetic perspective lead to significant, challenging, and
