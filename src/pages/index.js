@@ -69,7 +69,8 @@ const IndexPage = () => (
         George Segal • Franco Angeli • Joseph Beuys • Valerio Adami • Dennis
         Oppenheim • Nicole Eisenman • Robert Graham • Jorg Sasse • Annette
         Lemieux • Gerard Titus-Carmel • Rostislav Lebedev • Robert Combas • Hans
-        Peter Adamski • Anton Lamazares • Mark Cooper,{' '}
+        Peter Adamski • Anton Lamazares • Mark Cooper • Tim Hawkinson • Jan
+        Sebastian Koch • Lawrence Carroll,
         <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
