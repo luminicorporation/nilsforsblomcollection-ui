@@ -70,8 +70,7 @@ const IndexPage = () => (
         Oppenheim • Nicole Eisenman • Robert Graham • Jorg Sasse • Annette
         Lemieux • Gerard Titus-Carmel • Rostislav Lebedev • Robert Combas • Hans
         Peter Adamski • Anton Lamazares • Mark Cooper • Tim Hawkinson • Jan
-        Sebastian Koch • Lawrence Carroll,
-        <NoBreak>among many others.</NoBreak>
+        Sebastian Koch • Lawrence Carroll, <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
