@@ -50,27 +50,27 @@ const IndexPage = () => (
         Boltanski • Richard Long • Joseph Kosuth • Daniel Buren • Tara Donavan •
         Robert Rauschenberg • Robert Longo • John Davies • Giuseppe Penone •
         Thomas Ruff • Ola Kolehmainen • Meg Webster • Callum Innes • Jacob
-        Hashimoto • Ron Gorchov • Hans Hofmann • Manolo Millares • Arman • Sam
-        Francis • Mark Hagen • Garth Weiser • Eric Freeman • Richard Dupont •
-        Conrand Atkinson • Bard Breivik • Gerhard Merz • Valerie Krause  •
-        Davide Balliano • Gian Maria Tosatti • Marzia Migliora • Jacob Kassay •
-        Vladimir Velickovic • John Millei • Alexander Calder • Michelangelo
-        Pistoletto • Mark Francis • Ron Janowich • Gerhard Byrne • Kristjan
-        Gudmundsson • Jasmin Sian • Fiona Banner • James Busby • Leonid Lamm •
-        Eric Bainbridge • James Brown • Shimon Okshteyn • Ma­ri­jke van
-        War­mer­dam • Gabriela Fridriksdottir • Julian Schnabel • Adrian Schiess
-        • Mary Lucier • Gisela Colon • Lee Jaffe • José María Sicilia • David
-        Amico • Ross Bleckner • Charles Fine • Aaron Young • Randy Wray • Ara
-        Dymond • Graham Collins • Doug and Mike Starn • Petra Kralicova • Dieter
-        Hacker • Tim Ebner • Robert Petersen • John Laddie Dill • Katy Scimert •
-        Sanchez Rubio • Joel Shapiro • Sterling Ruby • Mariko Mori • Joe Goode •
-        Liam Gillick • Antonio Saura • Georgia Papageorge • Robert Morris • John
-        LeKay • Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni
-        Tàpies • Andrea Marie Breiling • George Segal • Franco Angeli • Joseph
-        Beuys • Valerio Adami • Dennis Oppenheim • Nicole Eisenman • Robert
-        Graham • Jorg Sasse • Annette Lemieux • Gerard Titus-Carmel • Rostislav
-        Lebedev • Robert Combas • Hans Peter Adamski • Anton Lamazares • Mark
-        Cooper • Otto Zitko, <NoBreak>among many others.</NoBreak>
+        Hashimoto • Ron Gorchov • Manolo Millares • Arman • Mark Hagen • Garth
+        Weiser • Eric Freeman • Richard Dupont • Conrand Atkinson • Bard Breivik
+        • Gerhard Merz • Valerie Krause  • Davide Balliano • Gian Maria Tosatti
+        • Marzia Migliora • Jacob Kassay • Vladimir Velickovic • John Millei •
+        Alexander Calder • Michelangelo Pistoletto • Mark Francis • Ron Janowich
+        • Gerhard Byrne • Kristjan Gudmundsson • Jasmin Sian • Fiona Banner •
+        James Busby • Leonid Lamm • Eric Bainbridge • James Brown • Shimon
+        Okshteyn • Ma­ri­jke van War­mer­dam • Gabriela Fridriksdottir • Julian
+        Schnabel • Adrian Schiess • Mary Lucier • Gisela Colon • Lee Jaffe •
+        José María Sicilia • David Amico • Ross Bleckner • Charles Fine • Aaron
+        Young • Randy Wray • Ara Dymond • Graham Collins • Doug and Mike Starn •
+        Petra Kralicova • Dieter Hacker • Tim Ebner • Robert Petersen • John
+        Laddie Dill • Katy Scimert • Sanchez Rubio • Joel Shapiro • Sterling
+        Ruby • Mariko Mori • Joe Goode • Liam Gillick • Antonio Saura • Georgia
+        Papageorge • Robert Morris • John LeKay • Mimmo Paladino • Takaharu
+        Fukuchi • Susan Hutchinson • Antoni Tàpies • Andrea Marie Breiling •
+        George Segal • Franco Angeli • Joseph Beuys • Valerio Adami • Dennis
+        Oppenheim • Nicole Eisenman • Robert Graham • Jorg Sasse • Annette
+        Lemieux • Gerard Titus-Carmel • Rostislav Lebedev • Robert Combas • Hans
+        Peter Adamski • Anton Lamazares • Mark Cooper • Tim Hawkinson • Jan
+        Sebastian Koch • Lawrence Carroll, <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
