@@ -68,8 +68,9 @@ const IndexPage = () => (
         LeKay • Mimmo Paladino • Takaharu Fukuchi • Susan Hutchinson • Antoni
         Tàpies • Andrea Marie Breiling • George Segal • Franco Angeli • Joseph
         Beuys • Valerio Adami • Dennis Oppenheim • Nicole Eisenman • Robert
-        Graham • Jorg Sasse • Annette Lemieux,{' '}
-        <NoBreak>among many others.</NoBreak>
+        Graham • Jorg Sasse • Annette Lemieux • Gerard Titus-Carmel • Rostislav
+        Lebedev • Robert Combas • Hans Peter Adamski • Anton Lamazares • Mark
+        Cooper • Otto Zitko, <NoBreak>among many others.</NoBreak>
       </p>
       <p className="index_summary">
         <b>The Nils Forsblom Collection</b> represent passage of time and space
